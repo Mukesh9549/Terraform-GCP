@@ -34,7 +34,7 @@ git push
 git add .
 
 2. Commit the changes (with a meaningful message)
-git commit -m " EX: Updated Terraform code"
+git commit -m " EX: Updated Terraform code "
 
 3. Push the changes to the remote Practise branch
 git push
