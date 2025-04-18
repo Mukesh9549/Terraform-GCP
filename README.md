@@ -26,3 +26,15 @@ git config --global user.email "you@example.com"
 
 # Step 8: Push your changes to the Practise branch
 git push
+
+
+# for the Existing Code to push
+
+1. Stage all changes (to track the modified files)
+git add .
+
+2. Commit the changes (with a meaningful message)
+git commit -m " EX: Updated Terraform code"
+
+3. Push the changes to the remote Practise branch
+git push
