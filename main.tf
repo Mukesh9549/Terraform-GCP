@@ -19,7 +19,7 @@ resource "google_storage_bucket" "default" {
       type = "Delete"
     }
     condition {
-      age = 28                                                     # Delete objects older than 30 days
+      age = 20                                                     # Delete objects older than 20 days
     }
   }
 
